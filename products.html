@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | ShopSasta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="products-page">
+
+    <div id="loader">
+        <div class="loader-content">
+            <h1 class="loader-logo">ShopSasta</h1>
+            <p class="loader-curator">BY: KHUSHKARAN SINGH SEKHON</p>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <nav class="top-nav">
+        <div class="nav-links">
+            <a href="index.html">HOME</a>
+            <a href="products.html" class="active">PRODUCTS</a>
+        </div>
+    </nav>
+
+    <section class="shop-header">
+        <div class="logo-box-mini">
+            <img src="assets/logo.png" alt="ShopSasta Logo" class="main-logo">
+        </div>
+        <div class="search-wrapper">
+            <div class="search-box">
+                <input type="text" id="tagSearch" placeholder=" " onkeyup="filterByTag()" required>
+                <label>S E A R C H  T A G S</label>
+                <span class="focus-border"></span>
+            </div>
+        </div>
+    </section>
+
+    <main id="product-grid" class="grid"></main>
+
+    <div class="bottom-btn-wrap">
+        <a href="#" class="primary-btn large">BACK TO TOP</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
